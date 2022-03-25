@@ -1,0 +1,8 @@
+
+printing service:
+	https://www.shapeways.com/
+
+material :
+	Versatile Plastic (Nylon 12)
+	https://www.shapeways.com/materials/versatile-plastic
+
