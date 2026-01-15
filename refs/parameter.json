@@ -1,0 +1,89 @@
+
+{
+    "Simulatior" : {
+        "sim-kumokun" : {
+            "WindowSize" : {
+                "Width" : 300,
+                "Height" : 300
+            },
+            "SimpleSDL" : {
+                "WindowZoom"    : 1.0
+            }
+        },
+        "sim-kumokun-win" : {
+            "WindowSize" : {
+                "Width" : 1000,
+                "Height" : 1000
+            }
+        }
+    },
+    "KumoKun" : {
+        "lBodyHeight"   :   1.0,
+        "lOriginToHipZ" :  70.0,
+        "lXHipServos"   :  30.0,
+        "lZHipServos"   :  -1.0,
+        "lHipYToKnee"   :  80.0,
+        "lKneeToToe"    : 175.0,
+        "DefaultToeDistance"      : 210.0,
+        "StartupDelayTime"        : 0.0,
+        "LegOnGroundIntervalTime" : 0.0,
+        "Gait" : {
+            "gaitLegs"              : 1,
+            "idealOneStepLen"       : 110.0,
+            "legHeightLiftUpTh"     : 0.3,
+            "legHeightLiftDownTh"   : 0.7,
+            "legHeightMinHeight"    : -100.0,
+            "legHeightMaxHeight"    : -70.0
+        },
+        "Gait3" : {
+            "description"                   : "Gait3 3leg",
+            "legHeightLiftUpTh_"            : 0.3,
+            "legHeightLiftDownTh_"          : 0.7,
+            "legHeightMinHeight_"           : -100.0,
+            "legHeightMaxHeight_"           : -70.0,
+            "legRaiseTimeDecreaseByStep_"   : 0.06666,
+            "coeffMove_"                    : 3.00000,
+            "coeffRot_"                     : 1.00000,
+            "vUnitPerStep_"                 : 5.0,
+            "dCoefStepLen_"                 : 5.0,
+            "pLegTransitionTimerThreshould" : 0.66666
+        },
+        "Gait3-1leg" : {
+            "description"                   : "Gait3 1leg",
+            "legHeightLiftUpTh_"            : 0.3,
+            "legHeightLiftDownTh_"          : 0.7,
+            "legHeightMinHeight_"           : -100.0,
+            "legHeightMaxHeight_"           : -70.0,
+            "legRaiseTimeDecreaseByStep_"   : 0.06666,
+            "coeffMove_"                    : 1.00000,
+            "coeffRot_"                     : 1.00000,
+            "vUnitPerStep_"                 : 5.0,
+            "dCoefStepLen_"                 : 10.0,
+            "pLegTransitionTimerThreshould" : 0.00001
+        },
+        "Servos" : {
+            "DegreeRange" : 270.0,
+            "PosMin" : 3500.0,
+            "PosMax" : 11500.0,
+            "stableThreathouldDegree" : 4.0,
+            "0"  : { "PosOffset" : 5500, "DegreePolarity" : true },
+            "1"  : { "PosOffset" : 6200, "DegreePolarity" : false },
+            "2"  : { "PosOffset" : 7500, "DegreePolarity" : true },
+            "3"  : { "PosOffset" : 5500, "DegreePolarity" : true },
+            "4"  : { "PosOffset" : 6200, "DegreePolarity" : false },
+            "5"  : { "PosOffset" : 7500, "DegreePolarity" : true },
+            "6"  : { "PosOffset" : 5500, "DegreePolarity" : true },
+            "7"  : { "PosOffset" : 6200, "DegreePolarity" : false },
+            "8"  : { "PosOffset" : 7500, "DegreePolarity" : true },
+            "9"  : { "PosOffset" : 5500, "DegreePolarity" : true },
+            "10" : { "PosOffset" : 6200, "DegreePolarity" : false },
+            "11" : { "PosOffset" : 7500, "DegreePolarity" : true },
+            "12" : { "PosOffset" : 5500, "DegreePolarity" : true },
+            "13" : { "PosOffset" : 6200, "DegreePolarity" : false },
+            "14" : { "PosOffset" : 7500, "DegreePolarity" : true },
+            "15" : { "PosOffset" : 5500, "DegreePolarity" : true },
+            "16" : { "PosOffset" : 6200, "DegreePolarity" : false },
+            "17" : { "PosOffset" : 7500, "DegreePolarity" : true }
+        }
+    }
+}
